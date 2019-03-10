@@ -28,4 +28,23 @@ public class Conversor {
 		String hexStr = Integer.toString(decimal,16);
 		return hexStr.toUpperCase();
 	}
+	
+	public String binaryToDecimal(String binario) {
+		if (binario.length() != 0) {
+			int numBinario = Integer.parseInt(binario);
+			int digito; int numDecimal = 0; int exponente = 0;
+			
+			do {
+				digito = numBinario%10;
+				numDecimal = numDecimal + digito * (int)Math.pow(2, exponente);
+				numBinario /= 10;
+				exponente++;
+			} while (numBinario!= 0);
+			
+			String Salida = Integer.toString(numDecimal);
+			return Salida;
+		} else {
+			return "0";
+		}
+	}
 }
