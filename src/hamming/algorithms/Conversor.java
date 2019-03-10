@@ -1,6 +1,20 @@
 package hamming.algorithms;
 
 public class Conversor {
+	private String[] bcd;
+
+	public Conversor() {
+		this.bcd = new String[] { "0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001" };
+	}
+	
+	public String binaryToBCD(int decimal) {
+		String salida = "";
+		do {
+			salida = bcd[decimal % 10] + " " + salida;
+			decimal /= 10;
+		} while (decimal != 0);
+		return salida;
+	}
 	
 	public boolean isBin(String num) {
 		String thisNum = num;
