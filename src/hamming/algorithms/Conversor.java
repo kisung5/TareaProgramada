@@ -7,7 +7,8 @@ public class Conversor {
 		this.bcd = new String[] { "0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001" };
 	}
 	
-	public String binaryToBCD(int decimal) {
+	public String binaryToBCD(String num) {
+		int decimal = Integer.parseInt(num,2);
 		String salida = "";
 		do {
 			salida = bcd[decimal % 10] + " " + salida;
@@ -45,20 +46,21 @@ public class Conversor {
 	
 	public String binaryToDecimal(String binario) {
 		if (binario.length() != 0) {
-			int numBinario = Integer.parseInt(binario);
-			int digito; int numDecimal = 0; int exponente = 0;
+			int numBinario = Integer.parseInt(binario,2);
 			
-			do {
-				digito = numBinario%10;
-				numDecimal = numDecimal + digito * (int)Math.pow(2, exponente);
-				numBinario /= 10;
-				exponente++;
-			} while (numBinario!= 0);
-			
-			String Salida = Integer.toString(numDecimal);
+			String Salida = Integer.toString(numBinario);
 			return Salida;
 		} else {
 			return "0";
 		}
 	}
+	
+//	public static void main(String[] args) {
+//		Conversor  conversor = new Conversor ();
+//		String decimal = conversor.binaryToDecimal("101010101010");
+//		String bcd = conversor.binaryToBCD("101010101010");
+//		String hex = conversor.binToHex("101010101010");
+//		
+//		System.out.println("Decimal: " + decimal + ", Hex: " + hex + ", BDC: " + bcd);
+//	}
 }
