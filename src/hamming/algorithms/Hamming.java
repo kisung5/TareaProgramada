@@ -150,7 +150,6 @@ public class Hamming {
 					str += "0" + binary.substring(4, 11);
 				}
 			} else if (cont == 4) {
-				System.out.println("hola");
 				str += "0" + binary.charAt(binary.length() - 1);
 			} else {
 				str += "0";
@@ -160,9 +159,4 @@ public class Hamming {
 
 		return str;
 	}
-//	
-//	public static void main(String[] args) {
-//		Hamming hamming = new Hamming();
-//		System.out.println(hamming.hammingCode("101010", true));
-//	}
 }
