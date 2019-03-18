@@ -88,7 +88,7 @@ public class MainController {
 		            });
 					
 					if (isTwoN(i)) {
-						columnTemp.setStyle("-fx-my-cell-background: blue;");
+						columnTemp.setStyle("-fx-text-fill: red;");
 					}
 				}
 				
