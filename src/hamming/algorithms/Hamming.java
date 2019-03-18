@@ -7,11 +7,11 @@ public class Hamming {
 	private boolean evenOrOdd;
 
 	/**
-	 * Método principal, se utiliza para realizar la paridad de una cadena de
+	 * Mï¿½todo principal, se utiliza para realizar la paridad de una cadena de
 	 * binarios nueva
 	 * 
 	 * @param binary
-	 *            cadena con números binarios
+	 *            cadena con nï¿½meros binarios
 	 * @param parity
 	 *            True o False, true indica paridad Par, false indica paridad impar
 	 * @return Lista con Strings, cada indice es un 1 o 0 de la paridad realizada
@@ -41,8 +41,8 @@ public class Hamming {
 	 *            cadena con los binarios correctos
 	 * @param binaryCode
 	 *            cadena de Strings con todos los respectivos 1 y 0
-	 * @return Lista con String de 1 y 0, indica, la ultima posición de la lista
-	 *         tiene el índice en donde se encuentra el error, si este último es 0,
+	 * @return Lista con String de 1 y 0, indica, la ultima posiciï¿½n de la lista
+	 *         tiene el ï¿½ndice en donde se encuentra el error, si este ï¿½ltimo es 0,
 	 *         significa que no hay error
 	 */
 	public List<String> errorDetection(String correctBinaryCode, String binaryCode) {
@@ -160,4 +160,9 @@ public class Hamming {
 
 		return str;
 	}
+//	
+//	public static void main(String[] args) {
+//		Hamming hamming = new Hamming();
+//		System.out.println(hamming.hammingCode("101010", true));
+//	}
 }

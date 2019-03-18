@@ -54,13 +54,4 @@ public class Conversor {
 			return "0";
 		}
 	}
-	
-//	public static void main(String[] args) {
-//		Conversor  conversor = new Conversor ();
-//		String decimal = conversor.binaryToDecimal("101010101010");
-//		String bcd = conversor.binaryToBCD("101010101010");
-//		String hex = conversor.binToHex("101010101010");
-//		
-//		System.out.println("Decimal: " + decimal + ", Hex: " + hex + ", BDC: " + bcd);
-//	}
 }

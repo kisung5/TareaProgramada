@@ -94,7 +94,7 @@
          <children>
             <TextField fx:id="inputText" layoutX="47.0" layoutY="41.0" />
             <Label layoutX="47.0" layoutY="14.0" prefHeight="23.0" prefWidth="208.0" text="Digite su número (binario de 12 bits):" />
-            <Button fx:id="inputButton" layoutX="231.0" layoutY="41.0" mnemonicParsing="false" onAction="#onInput" text="Enviar" />
+            <Button layoutX="231.0" layoutY="41.0" mnemonicParsing="false" onAction="#onInput" text="Enviar" />
             <Label fx:id="message" layoutX="121.0" layoutY="76.0" prefHeight="48.0" prefWidth="219.0" textFill="#f80000" />
             <RadioButton layoutX="53.0" layoutY="89.0" mnemonicParsing="false" selected="true" text="Impar">
                <toggleGroup>
