@@ -60,6 +60,22 @@ public class Hamming {
 		}
 		return parityList(toDetect + error, toDetect.length());
 	}
+	
+	public int getErrorIndex(String correctBinaryCode, String binaryCode) {
+		int n = (int) Math.sqrt(correctBinaryCode.length());
+		int cont = 0;
+		int index = 0;
+		String toDetect = hammingCodeAux(binaryCode, n, true);
+		int error = 0;
+		while (cont <= n) {
+			index = (int) Math.pow(2, cont) - 1;
+			if (correctBinaryCode.charAt(index) != (toDetect.charAt(index))) {
+				error += index + 1;
+			}
+			cont++;
+		}
+		return error;
+	}
 
 	private String hammingCodeAux(String binary, int n, boolean detection) {
 		int cont = 0;
@@ -159,4 +175,5 @@ public class Hamming {
 
 		return str;
 	}
+	
 }

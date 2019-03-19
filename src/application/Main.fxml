@@ -64,21 +64,21 @@
                   <TableColumn editable="false" prefWidth="90.0" resizable="false" sortable="false" />
                   <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P1" />
                   <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P2" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D1" />
+                  <TableColumn id="tableColumn1" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D1" />
                   <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P3" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D2" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D3" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D4" />
+                  <TableColumn id="tableColumn2" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D2" />
+                  <TableColumn id="tableColumn3" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D3" />
+                  <TableColumn id="tableColumn4" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D4" />
                   <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P4" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D5" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D6" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D7" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D8" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D9" />
-                  <TableColumn editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D10" />
-                  <TableColumn editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D11" />
-                  <TableColumn editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P5" />
-                  <TableColumn editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D12" />
+                  <TableColumn id="tableColumn5" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D5" />
+                  <TableColumn id="tableColumn6" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D6" />
+                  <TableColumn id="tableColumn7" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D7" />
+                  <TableColumn id="tableColumn8" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D8" />
+                  <TableColumn id="tableColumn9" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="D9" />
+                  <TableColumn id="tableColumn10" editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D10" />
+                  <TableColumn id="tableColumn11" editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D11" />
+                  <TableColumn id="tableColumn" editable="false" prefWidth="26.0" resizable="false" sortable="false" text="P5" />
+                  <TableColumn id="tableColumn12" editable="false" prefWidth="30.0" resizable="false" sortable="false" text="D12" />
                   <TableColumn editable="false" prefWidth="82.0" resizable="false" sortable="false" text="Prueba" />
                   <TableColumn editable="false" prefWidth="50.0" resizable="false" sortable="false" text="Bit" />
                </columns>

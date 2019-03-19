@@ -1,1 +1,53 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	text-color: black;
+}
+
+#tableColumn1 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn2 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn3 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn4 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn5 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn6 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn7 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn8 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn9 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn10 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn11 {
+	-fx-text-fill: text-color;
+}
+
+#tableColumn12 {
+	-fx-text-fill: text-color;
+}
